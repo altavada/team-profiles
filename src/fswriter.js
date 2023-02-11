@@ -1,8 +1,6 @@
 const fs = require('fs');
-const Manager = require('../lib/manager');
 
-const head = `
-<!DOCTYPE html>
+const head = `<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -61,7 +59,7 @@ const createEngineers = (engineer) => {
                             <li class="list-group-item">${member.name}</li>
                             <li class="list-group-item">ID#${member.id}</li>
                             <li class="list-group-item"><a href="mailto:${member.email}">${member.email}</a></li>
-                            <li class="list-group-item">GitHub: <a href="https://github.com/${member.github}">${member.github}</a></li>
+                            <li class="list-group-item">GitHub: <a href="https://github.com/${member.github}" target="_blank">${member.github}</a></li>
                         </ul>
                     </div>`;
         inputarray.push(card);
@@ -82,7 +80,7 @@ const createInterns = (intern) => {
                             <li class="list-group-item">${member.name}</li>
                             <li class="list-group-item">ID#${member.id}</li>
                             <li class="list-group-item"><a href="mailto:${member.email}">${member.email}</a></li>
-                            <li class="list-group-item">${member.school}</li>
+                            <li class="list-group-item" target="_blank">${member.school}</li>
                         </ul>
                     </div>`;
         inputarray.push(card);

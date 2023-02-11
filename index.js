@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 const Intern = require('./lib/intern');
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
-const { testHelper } = require('./src/fswriter');
+const { buildPage } = require('./src/fswriter');
 let managerInfo;
 let engineerInfo = [];
 let internInfo = [];
@@ -72,7 +72,9 @@ function menu() {
                 newEngineer();
                 break;
             case "Finished adding team members":
+                buildPage(managerInfo, engineerInfo, internInfo);
                 console.log('Writing file...');
+
         }
         return;
     })

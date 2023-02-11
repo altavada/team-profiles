@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-const testHelper = () => {
-    console.log('Ping');
+const createManager = (manager) => {
+    return ``
 }
 
 module.exports = { testHelper };

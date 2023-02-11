@@ -1,7 +1,8 @@
 const inquirer = require('inquirer');
 const Intern = require('./lib/intern');
 const Manager = require('./lib/manager');
-const Engineer = require('./lib/engineer')
+const Engineer = require('./lib/engineer');
+const { testHelper } = require('./src/fswriter');
 let managerInfo;
 let engineerInfo = [];
 let internInfo = [];

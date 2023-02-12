@@ -9,7 +9,7 @@ This is a Node.js application that allows the user to easily generate an HTML pa
 4. [Contributors](#contributors)
 5. [Questions](#questions)
 # Installation
-This program utilizes the Inquirer and Jest NPMs. In order to use the app, first ensure it is copied to your local system, then navigate to the parent folder in your command line and enter 'npm install.' You will also need to create a folder locally, within the parent folder, named 'dist' in order to receive output.
+This program utilizes the Inquirer and Jest NPMs. In order to use the app, first ensure it is copied to your local system, then navigate to the parent folder in your command line and enter 'npm install.'
 # Usage
 In your command line, navigate to the parent folder and enter 'node index.js' to initiate the program. You must enter the manager's info to generate a page -- once this is done, you will also be presented with the option to add as many engineers or interns as you'd like. When all employee's info has been entered, select the 'Finished adding team members' option in the menu. A 'Page ready' notification will appear in your command line, and your generated HTML page will appear in the 'dist' folder. Make sure you put this file somewhere safe (or rename it) before using the app again, as it will be overwritten otherwise. To run the four test suites contained in the 'test' folder, enter 'npm test' in the command line while the program is not currently running.
 # License

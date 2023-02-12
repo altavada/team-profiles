@@ -72,8 +72,8 @@ function menu() {
                 newEngineer();
                 break;
             case "Finished adding team members":
-                buildPage(managerInfo, engineerInfo, internInfo);
                 console.log('Writing file...');
+                buildPage(managerInfo, engineerInfo, internInfo);
 
         }
         return;

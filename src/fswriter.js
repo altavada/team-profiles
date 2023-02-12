@@ -28,7 +28,7 @@ const foot = `
 
 const buildPage = (manager, engineers, interns) => {
     fs.writeFile('./dist/index.html', `${head}${createManager(manager)}${createEngineers(engineers)}${createInterns(interns)}${foot}`, (err) => err ? console.log(err) : null);
-    console.log('File ready.');
+    console.log('Page ready.');
 }
 
 const createManager = (manager) => {

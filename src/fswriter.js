@@ -27,7 +27,10 @@ const foot = `
 </html>`;
 
 const buildPage = (manager, engineers, interns) => {
-    fs.writeFile('./dist/index.html', `${head}${createManager(manager)}${createEngineers(engineers)}${createInterns(interns)}${foot}`, (err) => err ? console.log(err) : null);
+    fs.writeFile(
+        './dist/index.html',
+        `${head}${createManager(manager)}${createEngineers(engineers)}${createInterns(interns)}${foot}`,
+        (err) => err ? console.log(err) : null);
     console.log('Page ready.');
 }
 
@@ -88,4 +91,4 @@ const createInterns = (intern) => {
     return inputarray.join('');
 }
 
-module.exports = { buildPage, createManager, createEngineers, createInterns };
+module.exports = { buildPage };

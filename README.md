@@ -1,7 +1,7 @@
 # DevMates Team Profile Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Description
-This is a Node.js application that allows the user to easily generate an HTML page with the roles and basic info of each member of a development team. This app demonstrates use of the Inquirer NPM (v. 8.2.4) to handle command line prompts, the Jest NPM (v. 29.4.2) to handle development testing, and the use of classes/subclasses and helper functions to supplement the program's central logic. To view the program in action, [click this link](https://drive.google.com/file/d/1d5VhQv2dQBLdlbPbXKgaXXY2WQ8L_N1u/view) for a recorded demo. To view a template mockup of a generated HTML page, refer to the index.html file contained in the temp folder.
+This is a Node.js application that allows the user to easily generate an HTML page with the roles and basic info of each member of a development team. This app demonstrates use of the Inquirer NPM (v. 8.2.4) to handle command line prompts, the Jest NPM (v. 29.4.2) to handle development testing, and the use of classes/subclasses and helper functions to supplement the program's central logic. To view the program in action, [click this link](https://drive.google.com/file/d/1d5VhQv2dQBLdlbPbXKgaXXY2WQ8L_N1u/view) for a recorded demo. To view a sample of a generated HTML page, refer to the index.html file contained in the temp folder.
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
